@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<MenuStructure>
+    <GleimMenu Name="topLevel">
+        <VoiceCommandList/>
+        <SerialCommand/>
+        <AudioPath/>
+        <ReturnCommandList/>
+        <SubMenuList>
+            <GleimMenu Name="Gleim">
+                <VoiceCommandList>
+                    <VoiceCommand>Hallo Gleim</VoiceCommand>
+                    <VoiceCommand>Moin Gleim</VoiceCommand>
+                </VoiceCommandList>
+                <SerialCommand>1</SerialCommand>
+                <AudioPath>gleim.wav</AudioPath>
+                <ReturnCommandList>
+                    <ReturnCommand>auf Wiedersehen</ReturnCommand>
+                </ReturnCommandList>
+                <SubMenuList>
+                    <GleimMenu Name="GleimLek">
+                        <VoiceCommandList>
+                            <VoiceCommand>Lektüre</VoiceCommand>
+                        </VoiceCommandList>
+                        <SerialCommand/>
+                        <AudioPath>gleimLek.wav</AudioPath>
+                        <ReturnCommandList/>
+                        <SubMenuList/>
+                    </GleimMenu>
+                </SubMenuList>
+            </GleimMenu>
+            <GleimMenu Name="Ramler">
+                <VoiceCommandList>
+                    <VoiceCommand>Hallo Ramler</VoiceCommand>
+                    <VoiceCommand>Was geht ab</VoiceCommand>
+                </VoiceCommandList>
+                <SerialCommand>2</SerialCommand>
+                <AudioPath>ramler.wav</AudioPath>
+                <ReturnCommandList>
+                    <ReturnCommand>tschüss</ReturnCommand>
+                </ReturnCommandList>
+                <SubMenuList>
+                    <GleimMenu Name="RamlerLek">
+                        <VoiceCommandList>
+                            <VoiceCommand>Lektüre</VoiceCommand>
+                        </VoiceCommandList>
+                        <SerialCommand/>
+                        <AudioPath/>
+                        <ReturnCommandList>
+                            <ReturnCommand>auf wiedersehen</ReturnCommand>
+                            <ReturnCommand>vielen dank</ReturnCommand>
+                        </ReturnCommandList>
+                        <SubMenuList/>
+                    </GleimMenu>
+                    <GleimMenu Name="test">
+                        <VoiceCommandList>
+                            <VoiceCommand>test</VoiceCommand>
+                        </VoiceCommandList>
+                        <SerialCommand/>
+                        <AudioPath/>
+                        <ReturnCommandList/>
+                        <SubMenuList/>
+                    </GleimMenu>
+                </SubMenuList>
+            </GleimMenu>
+        </SubMenuList>
+    </GleimMenu>
+</MenuStructure>

@@ -1,0 +1,64 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/jahresprojekt/Documents/GitHub/Jahresprojekt/build/Debug/ORSSerialPort/ORSSerial.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "ORSSerial-Swift.h",
+          'external-contents': "/Users/jahresprojekt/Documents/GitHub/Jahresprojekt/build/Debug/ORSSerialPort/ORSSerial.framework/Versions/A/Headers/ORSSerial-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORSSerialPacketDescriptor.h",
+          'external-contents': "/Users/jahresprojekt/Documents/GitHub/Jahresprojekt/MistyTest/ORSSerialPacketDescriptor.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORSSerialPort-umbrella.h",
+          'external-contents': "/Users/jahresprojekt/Documents/GitHub/Jahresprojekt/Pods/Target Support Files/ORSSerialPort/ORSSerialPort-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORSSerialPort.h",
+          'external-contents': "/Users/jahresprojekt/Documents/GitHub/Jahresprojekt/MistyTest/ORSSerialPort.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORSSerialPortManager.h",
+          'external-contents': "/Users/jahresprojekt/Documents/GitHub/Jahresprojekt/MistyTest/ORSSerialPortManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORSSerialRequest.h",
+          'external-contents': "/Users/jahresprojekt/Documents/GitHub/Jahresprojekt/MistyTest/ORSSerialRequest.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/jahresprojekt/Documents/GitHub/Jahresprojekt/build/Debug/ORSSerialPort/ORSSerial.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/jahresprojekt/Documents/GitHub/Jahresprojekt/build/Pods.build/Debug/ORSSerialPort.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/jahresprojekt/Documents/GitHub/Jahresprojekt/build/Debug/ORSSerialPort/ORSSerial.framework/PrivateHeaders",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "ORSSerialBuffer.h",
+          'external-contents': "/Users/jahresprojekt/Documents/GitHub/Jahresprojekt/MistyTest/ORSSerialBuffer.h"
+        }
+      ]
+    }
+  ]
+}

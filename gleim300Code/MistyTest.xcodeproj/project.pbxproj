@@ -1,0 +1,784 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F57506321B7C562008B9850 /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F57506121B7C562008B9850 /* WindowController.swift */; };
+		1EAF6CA0DD7FF0E11D3AD150 /* Pods_MistyTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 265131D1F4A86AF956F315C7 /* Pods_MistyTest.framework */; };
+		28B7FEE8A78A27E3DF6541F9 /* Pods_MistyTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F221B5DFA4C3D2E37ABA62D4 /* Pods_MistyTestTests.framework */; };
+		61433D4A0891852185E5237C /* Pods_MistyTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64437962A7FB49EEA6DFA60A /* Pods_MistyTestUITests.framework */; };
+		B909C68720CD8B0000C96EEA /* file.txt in Resources */ = {isa = PBXBuildFile; fileRef = B909C68620CD8B0000C96EEA /* file.txt */; };
+		B9146FB020889BB4000FCF4F /* FileStalker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9146FAF20889BB4000FCF4F /* FileStalker.swift */; };
+		B91FE790209C62BB00638CAB /* XmlMenuReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91FE78F209C62BB00638CAB /* XmlMenuReader.swift */; };
+		B9535C8C207A401400E34868 /* GleimMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9535C8B207A401400E34868 /* GleimMenu.swift */; };
+		B9535C8E207A43DF00E34868 /* MenuCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9535C8D207A43DF00E34868 /* MenuCreator.swift */; };
+		F9342AAD1FC1E32F0018FC78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9342AAC1FC1E32F0018FC78 /* AppDelegate.swift */; };
+		F9342AAF1FC1E32F0018FC78 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9342AAE1FC1E32F0018FC78 /* ViewController.swift */; };
+		F9342AB11FC1E32F0018FC78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9342AB01FC1E32F0018FC78 /* Assets.xcassets */; };
+		F9342AB41FC1E32F0018FC78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9342AB21FC1E32F0018FC78 /* Main.storyboard */; };
+		F9342AC01FC1E32F0018FC78 /* MistyTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9342ABF1FC1E32F0018FC78 /* MistyTestTests.swift */; };
+		F9342ACB1FC1E32F0018FC78 /* MistyTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9342ACA1FC1E32F0018FC78 /* MistyTestUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F9342ABC1FC1E32F0018FC78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9342AA11FC1E32F0018FC78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9342AA81FC1E32F0018FC78;
+			remoteInfo = MistyTest;
+		};
+		F9342AC71FC1E32F0018FC78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9342AA11FC1E32F0018FC78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9342AA81FC1E32F0018FC78;
+			remoteInfo = MistyTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0029D8841FC9A726000BA942 /* SwiftSerial-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftSerial-Bridging-Header.h"; sourceTree = "<group>"; };
+		0F57506121B7C562008B9850 /* WindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
+		25C55FCA9A662A545E6E7D00 /* Pods-MistyTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MistyTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MistyTestTests/Pods-MistyTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		265131D1F4A86AF956F315C7 /* Pods_MistyTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MistyTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C9E7484F2DC6527AC5F39EA /* Pods-MistyTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MistyTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-MistyTest/Pods-MistyTest.release.xcconfig"; sourceTree = "<group>"; };
+		595C79FB4A23BFFC9D9A098F /* Pods-MistyTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MistyTestUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MistyTestUITests/Pods-MistyTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		64437962A7FB49EEA6DFA60A /* Pods_MistyTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MistyTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		78D562FAB3BA04F526777F5E /* Pods-MistyTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MistyTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MistyTest/Pods-MistyTest.debug.xcconfig"; sourceTree = "<group>"; };
+		8F9CBE9D9D17C39CFED34C78 /* Pods-MistyTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MistyTestUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MistyTestUITests/Pods-MistyTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B909C68620CD8B0000C96EEA /* file.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = file.txt; path = ../../../../../../Applications/MAMP/htdocs/Gleimhaus/personen/file.txt; sourceTree = "<group>"; };
+		B9146FAF20889BB4000FCF4F /* FileStalker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileStalker.swift; sourceTree = "<group>"; };
+		B91FE78F209C62BB00638CAB /* XmlMenuReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XmlMenuReader.swift; sourceTree = "<group>"; };
+		B9535C8B207A401400E34868 /* GleimMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GleimMenu.swift; sourceTree = "<group>"; };
+		B9535C8D207A43DF00E34868 /* MenuCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCreator.swift; sourceTree = "<group>"; };
+		C531BC932F86807209861792 /* Pods-MistyTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MistyTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MistyTestTests/Pods-MistyTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F221B5DFA4C3D2E37ABA62D4 /* Pods_MistyTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MistyTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9342AA91FC1E32F0018FC78 /* MistyTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MistyTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9342AAC1FC1E32F0018FC78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F9342AAE1FC1E32F0018FC78 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F9342AB01FC1E32F0018FC78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F9342AB31FC1E32F0018FC78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F9342AB51FC1E32F0018FC78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9342AB61FC1E32F0018FC78 /* MistyTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MistyTest.entitlements; sourceTree = "<group>"; };
+		F9342ABB1FC1E32F0018FC78 /* MistyTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MistyTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9342ABF1FC1E32F0018FC78 /* MistyTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MistyTestTests.swift; sourceTree = "<group>"; };
+		F9342AC11FC1E32F0018FC78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9342AC61FC1E32F0018FC78 /* MistyTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MistyTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9342ACA1FC1E32F0018FC78 /* MistyTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MistyTestUITests.swift; sourceTree = "<group>"; };
+		F9342ACC1FC1E32F0018FC78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9342AA61FC1E32F0018FC78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EAF6CA0DD7FF0E11D3AD150 /* Pods_MistyTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9342AB81FC1E32F0018FC78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28B7FEE8A78A27E3DF6541F9 /* Pods_MistyTestTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9342AC31FC1E32F0018FC78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61433D4A0891852185E5237C /* Pods_MistyTestUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4338EB940CF3C1E4DE14AEE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				78D562FAB3BA04F526777F5E /* Pods-MistyTest.debug.xcconfig */,
+				2C9E7484F2DC6527AC5F39EA /* Pods-MistyTest.release.xcconfig */,
+				C531BC932F86807209861792 /* Pods-MistyTestTests.debug.xcconfig */,
+				25C55FCA9A662A545E6E7D00 /* Pods-MistyTestTests.release.xcconfig */,
+				8F9CBE9D9D17C39CFED34C78 /* Pods-MistyTestUITests.debug.xcconfig */,
+				595C79FB4A23BFFC9D9A098F /* Pods-MistyTestUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D70A1040BEDDAA6BB7DED890 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				265131D1F4A86AF956F315C7 /* Pods_MistyTest.framework */,
+				F221B5DFA4C3D2E37ABA62D4 /* Pods_MistyTestTests.framework */,
+				64437962A7FB49EEA6DFA60A /* Pods_MistyTestUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F9342AA01FC1E32F0018FC78 = {
+			isa = PBXGroup;
+			children = (
+				F9342AAB1FC1E32F0018FC78 /* MistyTest */,
+				F9342AC91FC1E32F0018FC78 /* MistyTestUITests */,
+				F9342AAA1FC1E32F0018FC78 /* Products */,
+				A4338EB940CF3C1E4DE14AEE /* Pods */,
+				D70A1040BEDDAA6BB7DED890 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F9342AAA1FC1E32F0018FC78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9342AA91FC1E32F0018FC78 /* MistyTest.app */,
+				F9342ABB1FC1E32F0018FC78 /* MistyTestTests.xctest */,
+				F9342AC61FC1E32F0018FC78 /* MistyTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9342AAB1FC1E32F0018FC78 /* MistyTest */ = {
+			isa = PBXGroup;
+			children = (
+				F9342AAC1FC1E32F0018FC78 /* AppDelegate.swift */,
+				F9342AAE1FC1E32F0018FC78 /* ViewController.swift */,
+				0F57506121B7C562008B9850 /* WindowController.swift */,
+				B9535C8D207A43DF00E34868 /* MenuCreator.swift */,
+				B9535C8B207A401400E34868 /* GleimMenu.swift */,
+				B9146FAF20889BB4000FCF4F /* FileStalker.swift */,
+				B91FE78F209C62BB00638CAB /* XmlMenuReader.swift */,
+				B909C68620CD8B0000C96EEA /* file.txt */,
+				F9342AB01FC1E32F0018FC78 /* Assets.xcassets */,
+				F9342AB21FC1E32F0018FC78 /* Main.storyboard */,
+				F9342AB51FC1E32F0018FC78 /* Info.plist */,
+				F9342AB61FC1E32F0018FC78 /* MistyTest.entitlements */,
+				0029D8841FC9A726000BA942 /* SwiftSerial-Bridging-Header.h */,
+				F9342ABE1FC1E32F0018FC78 /* MistyTestTests */,
+			);
+			path = MistyTest;
+			sourceTree = "<group>";
+		};
+		F9342ABE1FC1E32F0018FC78 /* MistyTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				F9342ABF1FC1E32F0018FC78 /* MistyTestTests.swift */,
+				F9342AC11FC1E32F0018FC78 /* Info.plist */,
+			);
+			path = MistyTestTests;
+			sourceTree = "<group>";
+		};
+		F9342AC91FC1E32F0018FC78 /* MistyTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F9342ACA1FC1E32F0018FC78 /* MistyTestUITests.swift */,
+				F9342ACC1FC1E32F0018FC78 /* Info.plist */,
+			);
+			path = MistyTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9342AA81FC1E32F0018FC78 /* MistyTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9342ACF1FC1E32F0018FC78 /* Build configuration list for PBXNativeTarget "MistyTest" */;
+			buildPhases = (
+				4CAE841556534B2DF2CAEF2E /* [CP] Check Pods Manifest.lock */,
+				F9342AA51FC1E32F0018FC78 /* Sources */,
+				F9342AA61FC1E32F0018FC78 /* Frameworks */,
+				F9342AA71FC1E32F0018FC78 /* Resources */,
+				051717BBBE5CD4D437422987 /* [CP] Embed Pods Frameworks */,
+				1D50626F4FDBB6B364D35F09 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MistyTest;
+			productName = MistyTest;
+			productReference = F9342AA91FC1E32F0018FC78 /* MistyTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F9342ABA1FC1E32F0018FC78 /* MistyTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9342AD21FC1E32F0018FC78 /* Build configuration list for PBXNativeTarget "MistyTestTests" */;
+			buildPhases = (
+				C05C73EF1448DB075FEA89D6 /* [CP] Check Pods Manifest.lock */,
+				F9342AB71FC1E32F0018FC78 /* Sources */,
+				F9342AB81FC1E32F0018FC78 /* Frameworks */,
+				F9342AB91FC1E32F0018FC78 /* Resources */,
+				7D39A151DF741B594410A48C /* [CP] Embed Pods Frameworks */,
+				1A9CE6D1AF06F94FBEBA8F7C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9342ABD1FC1E32F0018FC78 /* PBXTargetDependency */,
+			);
+			name = MistyTestTests;
+			productName = MistyTestTests;
+			productReference = F9342ABB1FC1E32F0018FC78 /* MistyTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F9342AC51FC1E32F0018FC78 /* MistyTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9342AD51FC1E32F0018FC78 /* Build configuration list for PBXNativeTarget "MistyTestUITests" */;
+			buildPhases = (
+				9E8BC5E193C4084DC7A768CE /* [CP] Check Pods Manifest.lock */,
+				F9342AC21FC1E32F0018FC78 /* Sources */,
+				F9342AC31FC1E32F0018FC78 /* Frameworks */,
+				F9342AC41FC1E32F0018FC78 /* Resources */,
+				0C3B438CA1C7961F309D818A /* [CP] Embed Pods Frameworks */,
+				87B13E5E02C10967D6D1C333 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9342AC81FC1E32F0018FC78 /* PBXTargetDependency */,
+			);
+			name = MistyTestUITests;
+			productName = MistyTestUITests;
+			productReference = F9342AC61FC1E32F0018FC78 /* MistyTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9342AA11FC1E32F0018FC78 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Mona Holtmann";
+				TargetAttributes = {
+					F9342AA81FC1E32F0018FC78 = {
+						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 1000;
+						ProvisioningStyle = Automatic;
+					};
+					F9342ABA1FC1E32F0018FC78 = {
+						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 1000;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F9342AA81FC1E32F0018FC78;
+					};
+					F9342AC51FC1E32F0018FC78 = {
+						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 1000;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F9342AA81FC1E32F0018FC78;
+					};
+				};
+			};
+			buildConfigurationList = F9342AA41FC1E32F0018FC78 /* Build configuration list for PBXProject "MistyTest" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F9342AA01FC1E32F0018FC78;
+			productRefGroup = F9342AAA1FC1E32F0018FC78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9342AA81FC1E32F0018FC78 /* MistyTest */,
+				F9342ABA1FC1E32F0018FC78 /* MistyTestTests */,
+				F9342AC51FC1E32F0018FC78 /* MistyTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9342AA71FC1E32F0018FC78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9342AB11FC1E32F0018FC78 /* Assets.xcassets in Resources */,
+				B909C68720CD8B0000C96EEA /* file.txt in Resources */,
+				F9342AB41FC1E32F0018FC78 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9342AB91FC1E32F0018FC78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9342AC41FC1E32F0018FC78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		051717BBBE5CD4D437422987 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MistyTest/Pods-MistyTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0C3B438CA1C7961F309D818A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MistyTestUITests/Pods-MistyTestUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1A9CE6D1AF06F94FBEBA8F7C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MistyTestTests/Pods-MistyTestTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1D50626F4FDBB6B364D35F09 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MistyTest/Pods-MistyTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4CAE841556534B2DF2CAEF2E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7D39A151DF741B594410A48C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MistyTestTests/Pods-MistyTestTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87B13E5E02C10967D6D1C333 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MistyTestUITests/Pods-MistyTestUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E8BC5E193C4084DC7A768CE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C05C73EF1448DB075FEA89D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9342AA51FC1E32F0018FC78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9146FB020889BB4000FCF4F /* FileStalker.swift in Sources */,
+				B91FE790209C62BB00638CAB /* XmlMenuReader.swift in Sources */,
+				F9342AAF1FC1E32F0018FC78 /* ViewController.swift in Sources */,
+				0F57506321B7C562008B9850 /* WindowController.swift in Sources */,
+				B9535C8C207A401400E34868 /* GleimMenu.swift in Sources */,
+				B9535C8E207A43DF00E34868 /* MenuCreator.swift in Sources */,
+				F9342AAD1FC1E32F0018FC78 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9342AB71FC1E32F0018FC78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9342AC01FC1E32F0018FC78 /* MistyTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9342AC21FC1E32F0018FC78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9342ACB1FC1E32F0018FC78 /* MistyTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F9342ABD1FC1E32F0018FC78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9342AA81FC1E32F0018FC78 /* MistyTest */;
+			targetProxy = F9342ABC1FC1E32F0018FC78 /* PBXContainerItemProxy */;
+		};
+		F9342AC81FC1E32F0018FC78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9342AA81FC1E32F0018FC78 /* MistyTest */;
+			targetProxy = F9342AC71FC1E32F0018FC78 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F9342AB21FC1E32F0018FC78 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9342AB31FC1E32F0018FC78 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F9342ACD1FC1E32F0018FC78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "MistyTest/SwiftSerial-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F9342ACE1FC1E32F0018FC78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "MistyTest/SwiftSerial-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		F9342AD01FC1E32F0018FC78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78D562FAB3BA04F526777F5E /* Pods-MistyTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MistyTest/MistyTest.entitlements;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = MistyTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = misty.MistyTest;
+				PRODUCT_NAME = MistyTest;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		F9342AD11FC1E32F0018FC78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C9E7484F2DC6527AC5F39EA /* Pods-MistyTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MistyTest/MistyTest.entitlements;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = MistyTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = misty.MistyTest;
+				PRODUCT_NAME = MistyTest;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		F9342AD31FC1E32F0018FC78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C531BC932F86807209861792 /* Pods-MistyTestTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MistyTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = misty.MistyTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MistyTest.app/Contents/MacOS/MistyTest";
+			};
+			name = Debug;
+		};
+		F9342AD41FC1E32F0018FC78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25C55FCA9A662A545E6E7D00 /* Pods-MistyTestTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MistyTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = misty.MistyTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MistyTest.app/Contents/MacOS/MistyTest";
+			};
+			name = Release;
+		};
+		F9342AD61FC1E32F0018FC78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F9CBE9D9D17C39CFED34C78 /* Pods-MistyTestUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MistyTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = misty.MistyTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = MistyTest;
+			};
+			name = Debug;
+		};
+		F9342AD71FC1E32F0018FC78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 595C79FB4A23BFFC9D9A098F /* Pods-MistyTestUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MistyTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = misty.MistyTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = MistyTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9342AA41FC1E32F0018FC78 /* Build configuration list for PBXProject "MistyTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9342ACD1FC1E32F0018FC78 /* Debug */,
+				F9342ACE1FC1E32F0018FC78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9342ACF1FC1E32F0018FC78 /* Build configuration list for PBXNativeTarget "MistyTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9342AD01FC1E32F0018FC78 /* Debug */,
+				F9342AD11FC1E32F0018FC78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9342AD21FC1E32F0018FC78 /* Build configuration list for PBXNativeTarget "MistyTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9342AD31FC1E32F0018FC78 /* Debug */,
+				F9342AD41FC1E32F0018FC78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9342AD51FC1E32F0018FC78 /* Build configuration list for PBXNativeTarget "MistyTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9342AD61FC1E32F0018FC78 /* Debug */,
+				F9342AD71FC1E32F0018FC78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F9342AA11FC1E32F0018FC78 /* Project object */;
+}

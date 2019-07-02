@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<MenuStructure>
+    <GleimMenu Name="topLevel">
+        <SubMenuList>
+        <GleimMenu Name="sprecht Bilder">
+            <VoiceCommandList>
+                <VoiceCommand>sprecht Bilder</VoiceCommand>
+                <VoiceCommand>sprecht Peter</VoiceCommand>
+                <VoiceCommand>sprechende Bilder</VoiceCommand>
+                <VoiceCommand>spricht Bilder</VoiceCommand>
+                <VoiceCommand>Sprechen Bilder</VoiceCommand>
+                <VoiceCommand>Stress</VoiceCommand>
+            </VoiceCommandList>
+            <SerialCommand>0</SerialCommand>
+            <AudioPath>aktiv</AudioPath>
+        </GleimMenu>
+        <GleimMenu Name="Danke">
+            <VoiceCommandList>
+                <VoiceCommand>Danke</VoiceCommand>
+            </VoiceCommandList>
+            <SerialCommand>0</SerialCommand>
+            <AudioPath>pause</AudioPath>
+        </GleimMenu>
+            <GleimMenu Name="Gleim">
+                <VoiceCommandList>
+                    <VoiceCommand>zu Klein</VoiceCommand>
+                    <VoiceCommand>zu Gleim</VoiceCommand>
+                    <VoiceCommand>zu Line</VoiceCommand>
+                    <VoiceCommand>zu Lion</VoiceCommand>
+                    <VoiceCommand>zu Allein</VoiceCommand>
+                    <VoiceCommand>zu Leihen</VoiceCommand>
+                    <VoiceCommand>zu Cline</VoiceCommand>
+                    <VoiceCommand>zu Klein</VoiceCommand>
+                    <VoiceCommand>zu Kleinen</VoiceCommand>
+                </VoiceCommandList>
+                <AudioPath>10_</AudioPath>
+                <isTopic>true</isTopic>
+            </GleimMenu>
+            <GleimMenu Name="Portrait">
+                <VoiceCommandList>
+                    <VoiceCommand>Portrait</VoiceCommand>
+                    <VoiceCommand>Patrick</VoiceCommand>
+                    <VoiceCommand>Portraet</VoiceCommand>
+                    <VoiceCommand>Vortraege</VoiceCommand>
+                </VoiceCommandList>
+                <AudioPath>11_</AudioPath>
+                <isTopic>true</isTopic>
+            </GleimMenu>
+            <GleimMenu Name="Literatur">
+                <VoiceCommandList>
+                    <VoiceCommand>Literatur</VoiceCommand>
+                    <VoiceCommand>Bitte retour</VoiceCommand>
+                    <VoiceCommand>Bitte Radtour</VoiceCommand>
+                    <VoiceCommand>Twitteruser</VoiceCommand>
+                    <VoiceCommand>Bittere Radtour</VoiceCommand>
+                </VoiceCommandList>
+                <AudioPath>12_</AudioPath>
+                <isTopic>true</isTopic>
+            </GleimMenu>
+            <GleimMenu Name="Zeitereignisse">
+                <VoiceCommandList>
+                    <VoiceCommand>Zeitereignisse</VoiceCommand>
+                    <VoiceCommand>Zeit Ereignisse</VoiceCommand>
+                    <VoiceCommand>Seite ein Gruesse</VoiceCommand>
+                    <VoiceCommand>Zweiter Ereignisse</VoiceCommand>
+                </VoiceCommandList>
+                <AudioPath>13_</AudioPath>
+                <isTopic>true</isTopic>
+            </GleimMenu>
+            <GleimMenu Name="Scherz">
+                <VoiceCommandList>
+                    <VoiceCommand>Scherz</VoiceCommand>
+                    <VoiceCommand>Schatz</VoiceCommand>
+                    <VoiceCommand>Scherzt</VoiceCommand>
+                    <VoiceCommand>Schertz</VoiceCommand>
+                </VoiceCommandList>
+                <AudioPath>14_</AudioPath>
+                <isTopic>true</isTopic>
+            </GleimMenu>
+            <GleimMenu Name="Freundschaft">
+                <VoiceCommandList>
+                    <VoiceCommand>Freundschaft</VoiceCommand>
+                </VoiceCommandList>
+                <AudioPath>15_</AudioPath>
+                <isTopic>true</isTopic>
+            </GleimMenu>
+            <GleimMenu Name="Projekte">
+                <VoiceCommandList>
+                    <VoiceCommand>Projekte</VoiceCommand>
+                    <VoiceCommand>Projektor</VoiceCommand>
+                </VoiceCommandList>
+                <AudioPath>16_</AudioPath>
+                <isTopic>true</isTopic>
+            </GleimMenu>
+            <GleimMenu Name="Streit">
+                <VoiceCommandList>
+                    <VoiceCommand>Streit</VoiceCommand>
+                    <VoiceCommand>Streikt</VoiceCommand>
+                </VoiceCommandList>
+                <AudioPath>17_</AudioPath>
+                <isTopic>true</isTopic>
+            </GleimMenu>
+            <GleimMenu Name="beim Hausherren">
+                <VoiceCommandList>
+                    <VoiceCommand>beim Hausherren</VoiceCommand>
+                    <VoiceCommand>beim Hausherrn</VoiceCommand>
+                    <VoiceCommand>Beim Haus Herren</VoiceCommand>
+                    <VoiceCommand>Beim Haus heran</VoiceCommand>
+                </VoiceCommandList>
+                <AudioPath>18_</AudioPath>
+                <isTopic>true</isTopic>
+            </GleimMenu>
+            <GleimMenu Name="selbst">
+                <VoiceCommandList>
+                    <VoiceCommand>selbst</VoiceCommand>
+                </VoiceCommandList>
+                <AudioPath>19_</AudioPath>
+                <isTopic>true</isTopic>
+            </GleimMenu>
+            
+
+            <GleimMenu Name="Gleim_jung_C">
+                <VoiceCommandList>
+                    <VoiceCommand>Gleim</VoiceCommand>
+                    <VoiceCommand>Klein</VoiceCommand>
+                    <VoiceCommand>Gleim</VoiceCommand>
+                    <VoiceCommand>klein</VoiceCommand>
+                    <VoiceCommand>Line</VoiceCommand>
+                    <VoiceCommand>Lion</VoiceCommand>
+                    <VoiceCommand>Allein</VoiceCommand>
+                    <VoiceCommand>Leihen</VoiceCommand>
+                    <VoiceCommand>Cline</VoiceCommand>
+                    <VoiceCommand>Kleinen</VoiceCommand>
+                </VoiceCommandList>
+                <SerialCommand>1</SerialCommand>
+                <AudioPath>1_10_</AudioPath>
+            </GleimMenu>
+            <GleimMenu Name="Gleim_alt_S">
+                <VoiceCommandList>
+                    <VoiceCommand>Vater Gleim</VoiceCommand>
+                    <VoiceCommand>Fahrzeug einen</VoiceCommand>
+                    <VoiceCommand>Vater klein</VoiceCommand>
+                    <VoiceCommand>Vater kleinen</VoiceCommand>
+                    <VoiceCommand>Partei klein</VoiceCommand>
+                    <VoiceCommand>Fahrzeug ein</VoiceCommand>
+                    <VoiceCommand>Fahrzeug rein</VoiceCommand>
+                    <VoiceCommand>Fahrzeuge kleinen</VoiceCommand>
+                    <VoiceCommand>Vater line</VoiceCommand>
+                    <VoiceCommand>Vater leihen</VoiceCommand>
+                    <VoiceCommand>Vater bleiben</VoiceCommand>
+                    <VoiceCommand>Vaterlein</VoiceCommand>
+                    <VoiceCommand>Vater Lion</VoiceCommand>
+                    <VoiceCommand>Fahre einen</VoiceCommand>
+                    <VoiceCommand>Fahrrad leihen</VoiceCommand>
+                </VoiceCommandList>
+                <SerialCommand>18</SerialCommand>
+                <AudioPath>2_14_</AudioPath>
+            </GleimMenu>
+            <GleimMenu Name="Ramler_C">
+                <VoiceCommandList>
+                    <VoiceCommand>Ramler</VoiceCommand>
+                    <VoiceCommand>Rammler</VoiceCommand>
+                    <VoiceCommand>Kammler</VoiceCommand>
+                    <VoiceCommand>Kramer</VoiceCommand>
+                    <VoiceCommand>Werner</VoiceCommand>
+                    <VoiceCommand>Hammer</VoiceCommand>
+                    <VoiceCommand>Kamera</VoiceCommand>
+                    <VoiceCommand>Camilla</VoiceCommand>
+                    <VoiceCommand>Kamlah</VoiceCommand>
+                    <VoiceCommand>Pamela</VoiceCommand>
+                </VoiceCommandList>
+                <SerialCommand>4</SerialCommand>
+                <AudioPath>1_13_</AudioPath>
+            </GleimMenu>
+            <GleimMenu Name="Karsch_S">
+                <VoiceCommandList>
+                    <VoiceCommand>Karsch</VoiceCommand>
+                    <VoiceCommand>Couch</VoiceCommand>
+                    <VoiceCommand>Cars</VoiceCommand>
+                    <VoiceCommand>Arsch</VoiceCommand>
+                    <VoiceCommand>Kaarst</VoiceCommand>
+                    <VoiceCommand>Karst</VoiceCommand>
+                    <VoiceCommand>Carlos</VoiceCommand>
+                </VoiceCommandList>
+                <SerialCommand>19</SerialCommand>
+                <AudioPath>2_15_</AudioPath>
+            </GleimMenu>
+            <GleimMenu Name="Kleist_C">
+                <VoiceCommandList>
+                    <VoiceCommand>Kleist</VoiceCommand>
+                    <VoiceCommand>Kreis</VoiceCommand>
+                    <VoiceCommand>Vielleicht</VoiceCommand>
+                    <VoiceCommand>Killer ist</VoiceCommand>
+                </VoiceCommandList>
+                <SerialCommand>5</SerialCommand>
+                <AudioPath>1_14_</AudioPath>
+            </GleimMenu>
+            <GleimMenu Name="Uz_C">
+                <VoiceCommandList>
+                    <VoiceCommand>Uz</VoiceCommand>
+                    <VoiceCommand>Guts</VoiceCommand>
+                    <VoiceCommand>Kurz</VoiceCommand>
+                    <VoiceCommand>Holz</VoiceCommand>
+                    <VoiceCommand>Orts</VoiceCommand>
+                    <VoiceCommand>Und</VoiceCommand>
+                </VoiceCommandList>
+                <SerialCommand>3</SerialCommand>
+                <AudioPath>1_12_</AudioPath>
+            </GleimMenu>
+            <GleimMenu Name="Sulzer_L">
+                <VoiceCommandList>
+                    <VoiceCommand>Sulzer</VoiceCommand>
+                    <VoiceCommand>seltsam</VoiceCommand>
+                    <VoiceCommand>soll's sehr</VoiceCommand>
+                    <VoiceCommand>Selzer</VoiceCommand>
+                    <VoiceCommand>Salsa</VoiceCommand>
+                    <VoiceCommand>Soll sehr</VoiceCommand>
+                    <VoiceCommand>Seit sehr</VoiceCommand>
+                    <VoiceCommand>Stolzer</VoiceCommand>
+                </VoiceCommandList>
+                <SerialCommand>11</SerialCommand>
+                <AudioPath>1_20_</AudioPath>
+            </GleimMenu>
+            <GleimMenu Name="Weitsch_L">
+                <VoiceCommandList>
+                    <VoiceCommand>Weitsch</VoiceCommand>
+                    <VoiceCommand>Weit</VoiceCommand>
+                    <VoiceCommand>Whitesch</VoiceCommand>
+                    <VoiceCommand>White</VoiceCommand>
+                    <VoiceCommand>Wait</VoiceCommand>
+                    <VoiceCommand>Weitz</VoiceCommand>
+                    <VoiceCommand>Waitz</VoiceCommand>
+                    <VoiceCommand>Waitch</VoiceCommand>
+                    <VoiceCommand>veitsch</VoiceCommand>
+                </VoiceCommandList>
+                <SerialCommand>13</SerialCommand>
+                <AudioPath>1_22_</AudioPath>
+            </GleimMenu>
+            <GleimMenu Name="Bodmer_L">
+                <VoiceCommandList>
+                    <VoiceCommand>Bodmer</VoiceCommand>
+                    <VoiceCommand>Border</VoiceCommand>
+                    <VoiceCommand>Bruder</VoiceCommand>
+                    <VoiceCommand>Wortmann</VoiceCommand>
+                    <VoiceCommand>Ordner</VoiceCommand>
+                    <VoiceCommand>Partner</VoiceCommand>
+                </VoiceCommandList>
+                <SerialCommand>12</SerialCommand>
+                <AudioPath>1_21_</AudioPath>
+            </GleimMenu>
+            <GleimMenu Name="Mueller_L">
+                <VoiceCommandList>
+                    <VoiceCommand>Mueller</VoiceCommand>
+                    <VoiceCommand>Meiner</VoiceCommand>
+                    <VoiceCommand>Murder</VoiceCommand>
+                    <VoiceCommand>Moeller</VoiceCommand>
+                </VoiceCommandList>
+                <SerialCommand>9</SerialCommand>
+                <AudioPath>1_18_</AudioPath>
+            </GleimMenu>
+            <GleimMenu Name="Nicolai_R">
+                <VoiceCommandList>
+                    <VoiceCommand>Nicolai</VoiceCommand>
+                    <VoiceCommand>Nikolaj</VoiceCommand>
+                    <VoiceCommand>Nicholas</VoiceCommand>
+                    <VoiceCommand>Nicolas</VoiceCommand>
+                    <VoiceCommand>Nicole ein</VoiceCommand>
+                    <VoiceCommand>Nicola</VoiceCommand>
+                    <VoiceCommand>Nicoley</VoiceCommand>
+                </VoiceCommandList>
+                <SerialCommand>8</SerialCommand>
+                <AudioPath>1_17_</AudioPath>
+            </GleimMenu>
+            <GleimMenu Name="Kretschmann_R">
+                <VoiceCommandList>
+                    <VoiceCommand>Kretschmann</VoiceCommand>
+                    <VoiceCommand></VoiceCommand>
+                    <VoiceCommand></VoiceCommand>
+                </VoiceCommandList>
+                <SerialCommand>7</SerialCommand>
+                <AudioPath>1_16_</AudioPath>
+            </GleimMenu>
+            <GleimMenu Name="Weisse_C">
+                <VoiceCommandList>
+                    <VoiceCommand>Weisse</VoiceCommand>
+                    <VoiceCommand>Weise</VoiceCommand>
+                    <VoiceCommand>Waise</VoiceCommand>
+                    <VoiceCommand>Beisse</VoiceCommand>
+                    <VoiceCommand>Weisser</VoiceCommand>
+                </VoiceCommandList>
+                <SerialCommand>6</SerialCommand>
+                <AudioPath>2_15_</AudioPath>
+            </GleimMenu>
+            <GleimMenu Name="Klopstock_HL">
+                <VoiceCommandList>
+                    <VoiceCommand>Klopstock</VoiceCommand>
+                    <VoiceCommand>Klopp Stock</VoiceCommand>
+                    <VoiceCommand>Klappt stark</VoiceCommand>
+                </VoiceCommandList>
+                <SerialCommand>25</SerialCommand>
+                <AudioPath>2_21_</AudioPath>
+            </GleimMenu>
+            <GleimMenu Name="JeanPaul_HL">
+                <VoiceCommandList>
+                    <VoiceCommand>Jean Paul</VoiceCommand>
+                    <VoiceCommand>John Snow</VoiceCommand>
+                    <VoiceCommand>Jan Paul</VoiceCommand>
+                    <VoiceCommand>John Paul</VoiceCommand>
+                    <VoiceCommand>Jan power</VoiceCommand>
+                    <VoiceCommand>Gian Paul</VoiceCommand>
+                    <VoiceCommand>Jumper</VoiceCommand>
+                </VoiceCommandList>
+                <SerialCommand>27</SerialCommand>
+                <AudioPath>2_23_</AudioPath>
+            </GleimMenu>
+            <GleimMenu Name="Lessing_HL">
+                <VoiceCommandList>
+                    <VoiceCommand>Lessing</VoiceCommand>
+                    <VoiceCommand>Messe</VoiceCommand>
+                    <VoiceCommand>Messing</VoiceCommand>
+                    <VoiceCommand>Lassen</VoiceCommand>
+                </VoiceCommandList>
+                <SerialCommand>26</SerialCommand>
+                <AudioPath>2_22_</AudioPath>
+            </GleimMenu>
+            <GleimMenu Name="Herder_HL">
+                <VoiceCommandList>
+                    <VoiceCommand>Herder</VoiceCommand>
+                    <VoiceCommand>Herda</VoiceCommand>
+                    <VoiceCommand>Harter</VoiceCommand>
+                    <VoiceCommand>Herr da</VoiceCommand>
+                    <VoiceCommand>Herber</VoiceCommand>
+                    <VoiceCommand>Herne</VoiceCommand>
+                    <VoiceCommand>Harter</VoiceCommand>
+                    <VoiceCommand>Herr der</VoiceCommand>
+                    <VoiceCommand>Herr</VoiceCommand>
+                </VoiceCommandList>
+                <SerialCommand>28</SerialCommand>
+                <AudioPath>2_24_</AudioPath>
+            </GleimMenu>
+            <GleimMenu Name="Wieland_HL">
+                <VoiceCommandList>
+                    <VoiceCommand>Wieland</VoiceCommand>
+                    <VoiceCommand>WLAN</VoiceCommand>
+                    <VoiceCommand>Wieder</VoiceCommand>
+                </VoiceCommandList>
+                <SerialCommand>29</SerialCommand>
+                <AudioPath>2_25_</AudioPath>
+            </GleimMenu>
+            <GleimMenu Name="Eschenburg_HL">
+                <VoiceCommandList>
+                    <VoiceCommand>Eschenburg</VoiceCommand>
+                    <VoiceCommand>Ich</VoiceCommand>
+                    <VoiceCommand></VoiceCommand>
+                    <VoiceCommand></VoiceCommand>
+                </VoiceCommandList>
+                <SerialCommand>30</SerialCommand>
+                <AudioPath>2_26_</AudioPath>
+            </GleimMenu>
+            <GleimMenu Name="Klotz_HL">
+                <VoiceCommandList>
+                    <VoiceCommand>Klotz</VoiceCommand>
+                    <VoiceCommand>Platz</VoiceCommand>
+                    <VoiceCommand>Glotz</VoiceCommand>
+                </VoiceCommandList>
+                <SerialCommand>31</SerialCommand>
+                <AudioPath>2_27_</AudioPath>
+            </GleimMenu>
+            <GleimMenu Name="LaRoche_HL">
+                <VoiceCommandList>
+                    <VoiceCommand>La Roche</VoiceCommand>
+                    <VoiceCommand>Laroche</VoiceCommand>
+                    <VoiceCommand>Laura Sch</VoiceCommand>
+                    <VoiceCommand>Lara Sch</VoiceCommand>
+                    <VoiceCommand>La Woche</VoiceCommand>
+                    <VoiceCommand>Laroche</VoiceCommand>
+                    <VoiceCommand>Lara Schnee</VoiceCommand>
+                    <VoiceCommand>Maraschi</VoiceCommand>
+                    <VoiceCommand>Laras Schnee</VoiceCommand>
+                    <VoiceCommand>Laura Rocher</VoiceCommand>
+                    <VoiceCommand>Laura</VoiceCommand>
+                    <VoiceCommand>Lara</VoiceCommand>
+                </VoiceCommandList>
+                <SerialCommand>24</SerialCommand>
+                <AudioPath>2_20_</AudioPath>
+            </GleimMenu>
+            <GleimMenu Name="Jacobi_S">
+                <VoiceCommandList>
+                    <VoiceCommand>Jacobi</VoiceCommand>
+                    <VoiceCommand>Jakoby</VoiceCommand>
+                    <VoiceCommand>Jakobi</VoiceCommand>
+                    <VoiceCommand>Jakob wie</VoiceCommand>
+                </VoiceCommandList>
+                <SerialCommand>17</SerialCommand>
+                <AudioPath>2_13_</AudioPath>
+            </GleimMenu>
+            <GleimMenu Name="Recke_S">
+                <VoiceCommandList>
+<!--                    <VoiceCommand>Recke</VoiceCommand>-->
+<!--                    <VoiceCommand>Hecke</VoiceCommand>-->
+<!--                    <VoiceCommand>Lecker</VoiceCommand>-->
+<!--                    <VoiceCommand>Heike</VoiceCommand>-->
+<!--                    <VoiceCommand>Elke</VoiceCommand>-->
+<!--                    <VoiceCommand>Wecker</VoiceCommand>-->
+<!--                    <VoiceCommand>Wecke</VoiceCommand>-->
+<!--                    <VoiceCommand>Ecke</VoiceCommand>-->
+                        <VoiceCommand>Von der Recke</VoiceCommand>
+                        <VoiceCommand>Von der</VoiceCommand>
+                        <VoiceCommand>Von der Regel</VoiceCommand>
+                        <VoiceCommand>Folge</VoiceCommand>
+                        <VoiceCommand>Holger</VoiceCommand>
+                        <VoiceCommand>Freunde</VoiceCommand>
+                        <VoiceCommand>Vor der Recke</VoiceCommand>
+                        <VoiceCommand>Vorne Recke </VoiceCommand>
+                </VoiceCommandList>
+                <SerialCommand>20</SerialCommand>
+                <AudioPath>2_16_</AudioPath>
+            </GleimMenu>
+            <GleimMenu Name="Goecking_S">
+                <VoiceCommandList>
+                    <VoiceCommand>Goecking</VoiceCommand>
+                    <VoiceCommand>Gattin</VoiceCommand>
+                    <VoiceCommand>Der King</VoiceCommand>
+                    <VoiceCommand>Goetting</VoiceCommand>
+                    <VoiceCommand>Peking</VoiceCommand>
+                    <VoiceCommand>Goettingen</VoiceCommand>
+                </VoiceCommandList>
+                <SerialCommand>23</SerialCommand>
+                <AudioPath>2_19_</AudioPath>
+            </GleimMenu>
+            <GleimMenu Name="Seume_S">
+                <VoiceCommandList>
+                    <VoiceCommand>Seume</VoiceCommand>
+                    <VoiceCommand>Saeume</VoiceCommand>
+                    <VoiceCommand>Saume</VoiceCommand>
+                    <VoiceCommand>Seiner</VoiceCommand>
+                    <VoiceCommand>Soll ma</VoiceCommand>
+                    <VoiceCommand>Sei nie</VoiceCommand>
+                    <VoiceCommand>Seine</VoiceCommand>
+                    <VoiceCommand>Soll nie</VoiceCommand>
+                </VoiceCommandList>
+                <SerialCommand>21</SerialCommand>
+                <AudioPath>2_17_</AudioPath>
+            </GleimMenu>
+            <GleimMenu Name="Heinse_S">
+                <VoiceCommandList>
+                    <VoiceCommand>Heinse</VoiceCommand>
+                    <VoiceCommand>Heinze</VoiceCommand>
+                    <VoiceCommand>Heintze</VoiceCommand>
+                    <VoiceCommand>Heisse</VoiceCommand>
+                    <VoiceCommand>Heimweh</VoiceCommand>
+                    <VoiceCommand>Heinzi</VoiceCommand>
+                </VoiceCommandList>
+                <SerialCommand>16</SerialCommand>
+                <AudioPath>2_12_</AudioPath>
+            </GleimMenu>
+            <GleimMenu Name="Buerger_S">
+                <VoiceCommandList>
+                    <VoiceCommand>Buerger</VoiceCommand>
+                    <VoiceCommand>Berger</VoiceCommand>
+                    <VoiceCommand>Bilder</VoiceCommand>
+                    <VoiceCommand>Burger</VoiceCommand>
+                    <VoiceCommand>Boerger</VoiceCommand>
+                </VoiceCommandList>
+                <SerialCommand>22</SerialCommand>
+                <AudioPath>2_18_</AudioPath>
+            </GleimMenu>
+            <GleimMenu Name="Bertuch_HR">
+                <VoiceCommandList>
+                    <VoiceCommand>Bertuch</VoiceCommand>
+                    <VoiceCommand>Werde noch</VoiceCommand>
+                    <VoiceCommand>Berthold</VoiceCommand>
+                    <VoiceCommand>Bertold</VoiceCommand>
+                    <VoiceCommand>Der Tuch</VoiceCommand>
+                    <VoiceCommand>Wert hoch</VoiceCommand>
+                    <VoiceCommand>Gerd hoch</VoiceCommand>
+                    <VoiceCommand>Wird hoch</VoiceCommand>
+                    <VoiceCommand>Wer</VoiceCommand>
+                    <VoiceCommand>Bernd</VoiceCommand>
+                </VoiceCommandList>
+                <SerialCommand>14</SerialCommand>
+                <AudioPath>2_10_</AudioPath>
+            </GleimMenu>
+            <GleimMenu Name="Zachariae_HR">
+                <VoiceCommandList>
+                    <VoiceCommand>Zachariae</VoiceCommand>
+                    <VoiceCommand>Zacharias</VoiceCommand>
+                    <VoiceCommand>Sacher Riedel</VoiceCommand>
+                    <VoiceCommand>Sache Rehe</VoiceCommand>
+                    <VoiceCommand>Sache Ria</VoiceCommand>
+                    <VoiceCommand>Sacherrea</VoiceCommand>
+                    <VoiceCommand>Sag Ariel</VoiceCommand>
+                    <VoiceCommand>Sacha Riehl</VoiceCommand>
+                    <VoiceCommand>Sache Ariel</VoiceCommand>
+                    <VoiceCommand>Sacharia</VoiceCommand>
+                </VoiceCommandList>
+                <SerialCommand>15</SerialCommand>
+                <AudioPath>2_11_</AudioPath>
+            </GleimMenu>
+            <GleimMenu Name="Spalding_C">
+                <VoiceCommandList>
+                     <VoiceCommand>Spalding</VoiceCommand>
+                    <VoiceCommand>Spalding</VoiceCommand>
+                    <VoiceCommand>Style King</VoiceCommand>
+                    <VoiceCommand>Zwei Dinge</VoiceCommand>
+                    <VoiceCommand>Zwei Link</VoiceCommand>
+                    <VoiceCommand>Speierling</VoiceCommand>
+                    <VoiceCommand>Sparring</VoiceCommand>
+                    <VoiceCommand>Zwei</VoiceCommand>
+                </VoiceCommandList>
+                <SerialCommand>2</SerialCommand>
+                <AudioPath>1_11_</AudioPath>
+            </GleimMenu>
+            <GleimMenu Name="Lavater_L">
+                <VoiceCommandList>
+                    <VoiceCommand>Lavater</VoiceCommand>
+                    <VoiceCommand>Lavazza</VoiceCommand>
+<!--                    <VoiceCommand>Lara Sa</VoiceCommand>-->
+                    <VoiceCommand>Lass Vater</VoiceCommand>
+                    <VoiceCommand>Das Wasser</VoiceCommand>
+                    <VoiceCommand>Lass Sascha</VoiceCommand>
+                    <VoiceCommand>Glasfaser</VoiceCommand>
+                </VoiceCommandList>
+                <SerialCommand>10</SerialCommand>
+                <AudioPath>1_19_</AudioPath>
+            </GleimMenu>
+            
+
+            
+        </SubMenuList>
+    </GleimMenu>
+</MenuStructure>
